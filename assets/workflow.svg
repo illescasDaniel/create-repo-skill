@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 350" width="920" height="350" role="img" aria-labelledby="title desc">
+  <title id="title">Create repo skill workflow</title>
+  <desc id="desc">Four steps: inspect the repository and preferences; present documentation and visuals; verify evidence, tests, links and package contents; and ask before publishing or taking other external actions.</desc>
+  <rect width="920" height="350" rx="20" fill="#e8f2f1"/>
+  <g fill="#fff" stroke="#174b50" stroke-width="2">
+    <rect x="15" y="60" width="205" height="230" rx="16"/>
+    <rect x="243" y="60" width="205" height="230" rx="16"/>
+    <rect x="471" y="60" width="205" height="230" rx="16"/>
+    <rect x="699" y="60" width="206" height="230" rx="16"/>
+  </g>
+  <g fill="#e5a940" stroke="#174b50" stroke-width="2">
+    <circle cx="42" cy="87" r="15"/><circle cx="270" cy="87" r="15"/>
+    <circle cx="498" cy="87" r="15"/><circle cx="726" cy="87" r="15"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#174b50">
+    <g font-size="16" font-weight="bold" text-anchor="middle">
+      <text x="42" y="93">1</text><text x="270" y="93">2</text>
+      <text x="498" y="93">3</text><text x="726" y="93">4</text>
+    </g>
+    <g font-size="18" font-weight="bold">
+      <text x="63" y="93">Inspect</text><text x="291" y="93">Present</text>
+      <text x="519" y="93">Verify</text><text x="747" y="93">Ask before</text>
+      <text x="747" y="115">publish</text>
+    </g>
+    <g font-size="15">
+      <text x="31" y="135"><tspan x="31" dy="0">Existing repository,</tspan><tspan x="31" dy="24">docs and CI</tspan><tspan x="31" dy="24">User preferences</tspan></text>
+      <text x="259" y="135"><tspan x="259" dy="0">README and icon</tspan><tspan x="259" dy="24">Accessible visuals</tspan><tspan x="259" dy="24">docs/ layout</tspan></text>
+      <text x="487" y="135"><tspan x="487" dy="0">Evidence-only</tspan><tspan x="487" dy="24">evaluation</tspan><tspan x="487" dy="24">Offline tests</tspan><tspan x="487" dy="24">Local links and</tspan><tspan x="487" dy="24">package contents</tspan></text>
+      <text x="715" y="150"><tspan x="715" dy="0">No automatic repo</tspan><tspan x="715" dy="24">creation, push,</tspan><tspan x="715" dy="24">install or paid runs</tspan></text>
+    </g>
+  </g>
+  <g fill="none" stroke="#174b50" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M222 175h18m-6-6 6 6-6 6"/><path d="M450 175h18m-6-6 6 6-6 6"/><path d="M678 175h18m-6-6 6 6-6 6"/>
+  </g>
+</svg>

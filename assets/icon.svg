@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title desc">
+  <title id="title">Repository documentation icon</title>
+  <desc id="desc">A document page with a checkmark badge.</desc>
+  <rect x="20" y="12" width="78" height="104" rx="10" fill="#e8f2f1" stroke="#174b50" stroke-width="5"/>
+  <path d="M37 38h43M37 53h43M37 68h30M37 83h25" fill="none" stroke="#174b50" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="94" cy="91" r="22" fill="#e5a940" stroke="#174b50" stroke-width="4"/>
+  <path d="m84 91 7 7 13-15" fill="none" stroke="#174b50" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
