@@ -1,6 +1,6 @@
 ---
 name: create-repo-skill
-description: Use when asked to create or improve a repo's README, docs, icon, badges, diagrams or evaluation report. Keeps code and layout; asks before publishing. Not for app code.
+description: Use when asked to create or improve a repo's README, docs, icon, badges, diagrams or document existing evaluation results. Keeps code and layout; asks before publishing. Not for app code.
 metadata:
   author: illescasDaniel
   tags: [readme, documentation, repository, visuals]
@@ -14,7 +14,7 @@ Make a repository's public face (README, docs, visuals, evidence, tests) clear a
 
 ## Prerequisites
 
-Read/write access to the repo. Optional: an image tool or model the user names (for artwork), a skill evaluator (for scores), `gh` (only if the user approves publishing).
+Read/write access to the repo. Optional: an image tool or model the user names (for artwork), `gh` (only if the user approves publishing).
 
 ## Instructions
 
@@ -22,8 +22,8 @@ Read/write access to the repo. Optional: an image tool or model the user names (
 2. **Write the README as a concise entry point**, in this order: icon and truthful badges, title and one-paragraph purpose, how-it-works visual or table, quick start, requirements and limits, evaluation, tests, link to detailed docs, license.
 3. **Add visuals.** Prefer accessible SVG with `<title>`/`<desc>` and meaningful `alt` text; keep a text alternative for each diagram. If the user asks for generated artwork, use the image or design tool or model they name; otherwise hand-write SVG. Artwork must match actual behavior.
 4. **Place files by convention where it fits:** artwork in `assets/`, guides and evidence in `docs/`, tests in `tests/`, installable source in the project's established package directory. Don't change source paths, external links, install artifacts, build metadata or public APIs just for visual consistency; if files move, update references or provide a migration. Long examples go in `<details>` or `docs/`.
-5. **Report evidence only if verified.** Name the artifact, exact revision, tool version, date and limits. Keep security findings separate from quality scores; show submetrics only when measured; a skill's score is not the score of the app around it. Put details in `docs/evaluation.md`; never invent ratings, badges, stars or coverage.
-6. **Test what is executable.** Add offline tests for scripts when requested or warranted, using temporary fixtures; keep dev-only files out of installed packages and verify package contents when packaging changes. Keep CI and advertised platform/version support aligned. Agent-behavior and paid evaluations are separate from script tests: respect the user's budget.
+5. **Document existing evaluation results when verified.** Leave evaluation runs to the evaluation workflow (for example, the `create-skill` skill for Agent Skills). Name the artifact, exact revision, tool version, date and limits. Keep security findings separate from quality scores; show submetrics only when measured; a skill's score is not the score of the app around it. Put details in `docs/evaluation.md`; never invent ratings, badges, stars or coverage.
+6. **Test what is executable.** Add offline tests for scripts when requested or warranted, using temporary fixtures; keep dev-only files out of installed packages and verify package contents when packaging changes. Keep CI and advertised platform/version support aligned.
 7. **Finish.** Check local links, image alt text, structural validity and relevant tests. Report changes, evidence and what is untested.
 
 ## Examples
@@ -33,7 +33,7 @@ Read/write access to the repo. Optional: an image tool or model the user names (
 
 ## Rules
 
-- Ask before any external action: creating a remote repo, pushing, publishing, installing globally or spending on paid evaluation, unless already authorized.
+- Ask before any external action: creating a remote repo, pushing, publishing, installing globally, unless already authorized.
 - Never claim popularity, compatibility, coverage or scores that were not verified.
 
 ## Limitations
@@ -44,5 +44,4 @@ Read/write access to the repo. Optional: an image tool or model the user names (
 ## Troubleshooting
 
 - **Image looks wrong or overflows:** validate the SVG as XML, shorten text, re-render and check it at the README display size.
-- **Evaluator can't run (missing scanner):** record the check as not run in `docs/evaluation.md`; do not invent a score.
 - **Links break after moving files:** search the repo for the old path and update or redirect it.

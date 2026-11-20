@@ -25,8 +25,8 @@
     <g font-size="15">
       <text x="31" y="135"><tspan x="31" dy="0">Existing repository,</tspan><tspan x="31" dy="24">docs and CI</tspan><tspan x="31" dy="24">User preferences</tspan></text>
       <text x="259" y="135"><tspan x="259" dy="0">README and icon</tspan><tspan x="259" dy="24">Accessible visuals</tspan><tspan x="259" dy="24">docs/ layout</tspan></text>
-      <text x="487" y="135"><tspan x="487" dy="0">Evidence-only</tspan><tspan x="487" dy="24">evaluation</tspan><tspan x="487" dy="24">Offline tests</tspan><tspan x="487" dy="24">Local links and</tspan><tspan x="487" dy="24">package contents</tspan></text>
-      <text x="715" y="150"><tspan x="715" dy="0">No automatic repo</tspan><tspan x="715" dy="24">creation, push,</tspan><tspan x="715" dy="24">install or paid runs</tspan></text>
+      <text x="487" y="135"><tspan x="487" dy="0">Existing evaluation</tspan><tspan x="487" dy="24">evidence</tspan><tspan x="487" dy="24">Offline tests</tspan><tspan x="487" dy="24">Local links and</tspan><tspan x="487" dy="24">package contents</tspan></text>
+      <text x="715" y="150"><tspan x="715" dy="0">No automatic repo</tspan><tspan x="715" dy="24">creation, push,</tspan><tspan x="715" dy="24">or install</tspan></text>
     </g>
   </g>
   <g fill="none" stroke="#174b50" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">

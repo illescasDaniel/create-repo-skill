@@ -4,11 +4,11 @@
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-green) ![Type: Agent Skill](https://img.shields.io/badge/type-Agent%20Skill-blue) ![SkillEvaluator Tier 1: A 100](https://img.shields.io/badge/SkillEvaluator%20Tier%201-A%20100%2F100-2e7d4f)
 
-An Agent Skill that helps an AI agent create or refresh a repository's public face: README, icon, accessible diagrams, docs layout, honest evaluation reporting and test presentation. It keeps the project's code and layout intact and asks before publishing anything.
+An Agent Skill that helps an AI agent create or refresh a repository's public face: README, icon, accessible diagrams, docs layout, documentation of existing evaluation results and test presentation. It keeps the project's code and layout intact and asks before publishing anything.
 
 ## How it works
 
-<p align="center"><img src="assets/workflow.svg" alt="Four steps: 1 Inspect the repository, docs, CI and preferences; 2 Present a README, icon, accessible visuals and docs layout; 3 Verify evidence-only evaluation, offline tests, local links and package contents; 4 Ask before publishing, with no automatic repo creation, push, install or paid runs." height="350"></p>
+<p align="center"><img src="assets/workflow.svg" alt="Four steps: 1 Inspect the repository, docs, CI and preferences; 2 Present a README, icon, accessible visuals and docs layout; 3 Verify existing evaluation evidence, offline tests, local links and package contents; 4 Ask before publishing, with no automatic repo creation, push or install." height="350"></p>
 
 | Area | Guidance |
 | --- | --- |
